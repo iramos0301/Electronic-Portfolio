@@ -1,6 +1,6 @@
 /* Basic styles */
 body{
-    background-color: #D5D5D5;
+    background-color: white;
 }
 h1 {
     color: #9099A2; 
@@ -27,6 +27,11 @@ main .col-md-2 {
     height:200px;
     padding:2em;
     margin-top:2em;
+    margin-bottom:2em;
+}
+
+footer {
+    margin-top: 300px;
 }
 
 .front-nav-1 {
@@ -44,12 +49,28 @@ main .col-md-2 {
 /* Homepage styles*/
 .cover{
     height:300px;
-    margin-top:25%;
+    margin-top:10%;
 }
 
 header {
-    background-color: #96858F;
     color:white;
     padding:4em;
-    margin:2em;
+}
+
+.contact {
+    padding: 2em;
+    background-color: black;
+}
+
+div > h4 {
+    padding:2em;
+}
+
+nav {
+    background-color: black;
+    color: white;
+}
+
+li.nav-item {
+    color: white;
 }

@@ -54,8 +54,9 @@ footer {
 
 header {
     color:white;
-    padding:4em;
+    margin-top:20px;
 }
+
 
 .contact {
     padding: 2em;
@@ -73,4 +74,32 @@ nav {
 
 li.nav-item {
     color: white;
+}
+
+table {
+    margin: 60px;
+}
+
+
+div.carousel-inner {
+    height: 1000px;
+    width: 1250px;
+    padding:50px;
+    border-style:solid;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+   }
+   
+   .carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+   }
+
+div.carousel {
+    margin:50px;
+}
+
+div.row {
+    margin: 25px;
 }

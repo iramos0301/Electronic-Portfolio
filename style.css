@@ -3,6 +3,10 @@ body{
     background-color: white;
 }
 
+#vertical-photos {
+    padding-left: 25px;
+}
+
 .site {
   display: flex;
   min-height: 25vh;
@@ -19,6 +23,12 @@ h2, h3, h4, h5, h6{
 
 a{
     color:inherit;
+}
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 a:hover{
@@ -84,8 +94,10 @@ li.nav-item {
     color: white;
 }
 
-table {
-    margin: 60px;
+div.table-responsive {
+    margin-top: 60px;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 a.current-link {
@@ -121,4 +133,8 @@ div.carousel {
 
 nav > main {
     margin-top: 25px;
+}
+
+div.row {
+    margin-bottom: 25px;
 }

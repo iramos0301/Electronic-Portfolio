@@ -104,7 +104,15 @@ a.current-link {
     text-decoration:underline;
 }
 
-div.carousel-inner {
+div.extracurriculars div.carousel-item {
+    height: 500px;
+    position: absolute;
+    left: 64%;
+    top: 75%;
+    transform: translate(-50%,-50%);
+}
+
+div.certifications, .carousel div.carousel-inner {
     height: 1000px;
     width: 1250px;
     padding:50px;

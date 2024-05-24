@@ -110,11 +110,11 @@ div.carousel-inner {
 }
 
 #certifications div.carousel-inner {
-    height: 1000px;
-    width: 1250px;
+    height: 400px;
     padding:50px;
     border-style:solid;
     background-color:grey;
+    
 }
 
 #certifications .carousel-control-prev-icon {
@@ -142,4 +142,13 @@ nav > main {
 
 div.row {
     margin-bottom: 25px;
+}
+
+div.container {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align:left;
 }
